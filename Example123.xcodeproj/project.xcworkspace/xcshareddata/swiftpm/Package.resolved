@@ -1,0 +1,24 @@
+{
+  "originHash" : "1f36589d9ede611257c0886d0da0b9d598439a8b64827b79ff657024ac2ffc3d",
+  "pins" : [
+    {
+      "identity" : "redlink-push-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vercomsa/redlink-push-ios-sdk",
+      "state" : {
+        "revision" : "fe1b0ed9f04ee1a27f4747f1c6ed4e3d492e07bc",
+        "version" : "1.1.15"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "a95fc6df17d108bd99210db5e8a9bac90fe984b8",
+        "version" : "0.15.3"
+      }
+    }
+  ],
+  "version" : 3
+}
