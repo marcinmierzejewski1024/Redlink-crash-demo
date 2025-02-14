@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		548120652D5E23DF002AC57A /* Redlink in Frameworks */ = {isa = PBXBuildFile; productRef = 548120642D5E23DF002AC57A /* Redlink */; };
+		547C73FB2D5F990B00E6E60C /* Redlink in Frameworks */ = {isa = PBXBuildFile; productRef = 547C73FA2D5F990B00E6E60C /* Redlink */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548120652D5E23DF002AC57A /* Redlink in Frameworks */,
+				547C73FB2D5F990B00E6E60C /* Redlink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			);
 			name = Example123;
 			packageProductDependencies = (
-				548120642D5E23DF002AC57A /* Redlink */,
+				547C73FA2D5F990B00E6E60C /* Redlink */,
 			);
 			productName = Example123;
 			productReference = 54C0D0BC2D5E230B00E3FAC5 /* Example123.app */;
@@ -215,7 +215,7 @@
 			mainGroup = 54C0D0B32D5E230B00E3FAC5;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				548120632D5E23DF002AC57A /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk" */,
+				547C73F92D5F990B00E6E60C /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk-sqlitefix" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 54C0D0BD2D5E230B00E3FAC5 /* Products */;
@@ -580,20 +580,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		548120632D5E23DF002AC57A /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk" */ = {
+		547C73F92D5F990B00E6E60C /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk-sqlitefix" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/vercomsa/redlink-push-ios-sdk";
+			repositoryURL = "https://github.com/marcinmierzejewski1024/redlink-push-ios-sdk-sqlitefix/";
 			requirement = {
-				kind = exactVersion;
-				version = 1.1.15;
+				branch = "redlink-dynamic-linking-fix";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		548120642D5E23DF002AC57A /* Redlink */ = {
+		547C73FA2D5F990B00E6E60C /* Redlink */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 548120632D5E23DF002AC57A /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk" */;
+			package = 547C73F92D5F990B00E6E60C /* XCRemoteSwiftPackageReference "redlink-push-ios-sdk-sqlitefix" */;
 			productName = Redlink;
 		};
 /* End XCSwiftPackageProductDependency section */
